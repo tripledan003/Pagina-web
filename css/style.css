@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: #000;
 }
 
 header {
@@ -40,15 +39,21 @@ a:hover {
 
     div.title {
         font-size: 36px;
-        margin: 0px 0px 0px 460px;
+        background-color: yellow;
+        width: 988px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     div.subtitle {
         font-family: "General Sans", sans-serif;
         font-size: 24px;
         color: #9f9f9f;
-        margin: -50px 0px 50px 460px;
         font-weight: 200px;
+        background-color: blue;
+        width: 988px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     img {
@@ -79,20 +84,20 @@ a:hover {
     }
 
     section.sect1 {
-        margin: 0px 0px 0px 460px;
-        background-color: #fff;
+        width: 50%;
+        margin: auto;
         padding: 0px; 
     }
 
     section.sect2 {
-        margin: 0px 0px 0px 460px;
-        background-color: #fff;
+        width: 50%;
+        margin: auto;
         padding: 0px;
     }
 
     section.sect3 {
-        margin: 0px 0px 80px 460px;
-        background-color: #fff;
+        width: 50%;
+        margin: auto;
         padding: 0px;
     }
 
@@ -102,11 +107,4 @@ a:hover {
         text-align: center;
         margin: auto;
         padding: 10px;
-
     }
-
-    p.p1 {
-        
-    } 
-
-    
