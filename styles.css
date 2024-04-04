@@ -7,8 +7,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 48px 8px 0px;
+    padding: 16px;
     font-family: "Zodiak", serif;
+    max-width: 100%;
 }
 
 a.home {
@@ -91,19 +92,19 @@ a:hover {
     section.sect1 {
         width: 50%;
         margin: auto;
-        padding: 0px; 
+        padding: 8px; 
     }
 
     section.sect2 {
         width: 50%;
         margin: auto;
-        padding: 0px;
+        padding: 8px;
     }
 
     section.sect3 {
         width: 50%;
         margin: auto;
-        padding: 0px;
+        padding: 8px;
     }
 
     footer {
@@ -113,3 +114,5 @@ a:hover {
         margin: auto;
         padding: 10px;
     }
+
+    @media
