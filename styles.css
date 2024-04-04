@@ -7,8 +7,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 48px 8px 460px;
+    padding: 8px 48px 8px 0px;
     font-family: "Zodiak", serif;
+}
+
+a.home {
+    margin: auto;
 }
 
 a:hover {
@@ -18,7 +22,6 @@ a:hover {
     nav {
         display: flex;
         justify-content: space-between;
-        padding: 8px 460px 8px 48px;
     }
 
         a {
@@ -39,7 +42,6 @@ a:hover {
 
     div.title {
         font-size: 36px;
-        background-color: yellow;
         width: 988px;
         margin-left: auto;
         margin-right: auto;
@@ -50,7 +52,6 @@ a:hover {
         font-size: 24px;
         color: #9f9f9f;
         font-weight: 200px;
-        background-color: blue;
         width: 988px;
         margin-left: auto;
         margin-right: auto;
@@ -82,6 +83,10 @@ a:hover {
     p {
         font-family: "General Sans", sans-serif;
     }
+
+    hr.solid {
+        border-top: 6px solid #000;
+      }
 
     section.sect1 {
         width: 50%;
