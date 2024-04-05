@@ -122,8 +122,8 @@ a:hover {
         }
 
         section.landing {
-            display: grid;
-            grid-template-columns: fr;
+            display: block;
+            padding: 50px;
         }
 
         section.sect1 {
@@ -136,5 +136,14 @@ a:hover {
 
         section.sect3 {
             width: 82%;
+        }
+
+        img {
+            max-width: 100%;
+            width: 350px;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            
         }
     }
