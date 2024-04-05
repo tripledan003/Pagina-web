@@ -116,12 +116,17 @@ a:hover {
             margin: 0;
         }
 
+        a {
+            font-size: 20px;
+        }
+
         div.title {
-            margin: auto;
+            margin-left: -35px;
             font-size: 24px;
         }
 
         div.subtitle {
+            margin-left: -35px;
             font-size: 20px;
         }
 
@@ -131,24 +136,26 @@ a:hover {
         }
 
         section.sect1 {
+            margin-left: 5px;
             width: 82%;
         }
 
         section.sect2 {
+            margin-left: 5px;
             width: 82%;
         }
 
         section.sect3 {
+            margin-left: 5px;
             width: 82%;
         }
 
         img {
             max-width: 100%;
-            width: 350px;
+            width: 400px;
             height: 200px;
-            object-fit: cover;
             display: block;
-            
+            margin-left: -36px
         }
 
         html,body{
