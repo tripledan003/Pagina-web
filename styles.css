@@ -112,6 +112,11 @@ a:hover {
     }
 
     @media (max-width: 600px) {
+
+        main {
+            margin: 0;
+        }
+
         div.title {
             margin: auto;
             font-size: 24px;
