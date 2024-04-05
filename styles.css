@@ -9,7 +9,6 @@ header {
     align-items: center;
     padding: 16px;
     font-family: "Zodiak", serif;
-    max-width: 100%;
 }
 
 a.home {
@@ -61,16 +60,13 @@ a:hover {
     img {
         width: 988px;
         height: 461px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         object-fit: cover;
         display: grid;
         padding: 40px;
     }
 
-    div.image {
-        max-width: 100%;
-    }
+    
 
     h1 {
         font-family: "Zodiak", serif;
@@ -90,19 +86,19 @@ a:hover {
       }
 
     section.sect1 {
-        width: 50%;
+        width: 988px;
         margin: auto;
-        padding: 8px; 
+        padding: 8px;
     }
 
     section.sect2 {
-        width: 50%;
+        width: 988px;
         margin: auto;
         padding: 8px;
     }
 
     section.sect3 {
-        width: 50%;
+        width: 988px;
         margin: auto;
         padding: 8px;
     }
@@ -115,4 +111,30 @@ a:hover {
         padding: 10px;
     }
 
-    @media
+    @media (max-width: 600px) {
+        div.title {
+            margin: auto;
+            font-size: 24px;
+        }
+
+        div.subtitle {
+            font-size: 20px;
+        }
+
+        section.landing {
+            display: grid;
+            grid-template-columns: fr;
+        }
+
+        section.sect1 {
+            width: 82%;
+        }
+
+        section.sect2 {
+            width: 82%;
+        }
+
+        section.sect3 {
+            width: 82%;
+        }
+    }
